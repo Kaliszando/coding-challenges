@@ -9,8 +9,6 @@
   <version>1.0</version>
 
   <name>coding-challenges</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,6 +74,6 @@
           <version>3.0.0</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+    </pluginManagement><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><configuration><source>10</source><target>10</target></configuration></plugin></plugins>
   </build>
 </project>
