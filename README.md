@@ -7,6 +7,7 @@ Each assignment has been solved by me, but not all solutions are mine.
 * [Two smallest numbers](https://github.com/Kaliszando/coding-challenges#two-smallest-numbers)
 * [Two sum](https://github.com/Kaliszando/coding-challenges#two-sum)
 * [Reverse integer](https://github.com/Kaliszando/coding-challenges#reverse-integer)
+* [Palindrome](https://github.com/Kaliszando/coding-challenges#palindrome)
 
 ## Particulars of the challenges
 
@@ -19,9 +20,8 @@ instead of the number and for the multiples of '5' print "Buzz"._
 
 My solution returns String values instead of printing to console.
 
-[Source](https://www.geeksforgeeks.org/fizz-buzz-implementation/)
-
-[My solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/FizzBuzzSolution.java)
+[source](https://www.geeksforgeeks.org/fizz-buzz-implementation/),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/FizzBuzzSolution.java)
 
 
 
@@ -32,20 +32,22 @@ the sum of which is smallest in a whole array_
 
 Instead of sorting the array, you can traverse the array only once, which gives _O(n)_ complexity.
 
-[Source](https://cs.stackexchange.com/questions/47729/algorithm-for-finding-two-smallest-numbers-in-an-array)
+[source](https://cs.stackexchange.com/questions/47729/algorithm-for-finding-two-smallest-numbers-in-an-array),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/TwoSmallestSolution.java)
 
-[My solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/TwoSmallestSolution.java)
+
 
 ### Two sum
 ***
-_Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+_Given an array of integers and an integer target, return indices of the two numbers such that they add up to target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
 Array of integers is not sorted._
 
-[Source](https://leetcode.com/problems/two-sum/)
+[source](https://leetcode.com/problems/two-sum/),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/TwoSumSolution.java)
 
-[My solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/TwoSumSolution.java)
+
 
 ### Reverse integer
 ***
@@ -53,7 +55,17 @@ _Given a signed 32-bit integer x, return x with its digits reversed. If reversin
 [-231, 231 - 1], then return 0.
 **Assume the environment does not allow you to store 64-bit integers (signed or unsigned).**_
 
-[Source](https://leetcode.com/problems/reverse-integer/)
+[source](https://leetcode.com/problems/reverse-integer/),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/ReverseIntegerSolution.java)
 
-[My solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/ReverseIntegerSolution.java)
+
+
+### Palindrome
+***
+_Given an integer **x**, return true if **x** is palindrome integer.
+An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not._
+
+[source](https://leetcode.com/problems/palindrome-number/),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/PalindromeSolution.java)
+
 

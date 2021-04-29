@@ -11,7 +11,7 @@ import java.util.Random;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
-public class TwoSmallestSolutionTest {
+public class TwoSmallestTest {
 
     private Object[] getTestArrays() {
         return new Object[]{

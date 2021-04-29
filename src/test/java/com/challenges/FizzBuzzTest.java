@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class FizzBuzzSolutionTest {
+public class FizzBuzzTest {
 
     private int scope = 1_000_000;
 

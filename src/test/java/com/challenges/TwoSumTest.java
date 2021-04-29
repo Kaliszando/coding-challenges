@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
-public class TwoSumSolutionTest {
+public class TwoSumTest {
 
     private TwoSumSolution sut;
 
