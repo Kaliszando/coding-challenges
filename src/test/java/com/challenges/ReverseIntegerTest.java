@@ -25,4 +25,13 @@ public class ReverseIntegerTest {
     public void shouldReversIntegers2(int input, int expected) {
         assertEquals(expected, ReverseIntegerSolution.reverse2(input));
     }
+
+    @Test
+    @Parameters({"1234, 4321",
+                "-234, -432",
+                "2147483647, 0"})
+    public void shouldReversIntegersUsingInt(int input, int expected) {
+        assertEquals(expected, ReverseIntegerSolution.reverseUsingInt(input));
+    }
+
 }

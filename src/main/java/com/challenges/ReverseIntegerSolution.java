@@ -28,5 +28,19 @@ public class ReverseIntegerSolution {
         }
     }
 
+    public static int reverseUsingInt(int number) {
+
+        int reversed = 0;
+        while (Math.abs(number) > 0) {
+            reversed = reversed * 10 + number % 10;
+            number /= 10;
+
+            if (reversed < Integer.MIN_VALUE / 10) return 0;
+            if (reversed > Integer.MAX_VALUE / 10 ) return 0;
+        }
+
+        return reversed;
+    }
+
 }
 
