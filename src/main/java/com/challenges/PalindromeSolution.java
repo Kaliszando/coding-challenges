@@ -15,7 +15,7 @@ class PalindromeSolution {
     }
 
     public static boolean isPalindrome2(int number) {
-        if (number < 0) return false;
+        if (number < 0 || (number % 10 == 0 && number != 0)) return false;
 
         int halfReversed = 0;
         while (number > halfReversed) {
