@@ -18,5 +18,13 @@ public class PalindromeTest {
     public void shouldVerifyPalindromes(int input, boolean result) {
         assertEquals(result, PalindromeSolution.isPalindrome(input));
     }
+    @Test
+    @Parameters({"123454321, true",
+                 "1234, false",
+                 "-4334, false",
+                 "754457, true"})
+    public void shouldVerifyPalindromes2(int input, boolean result) {
+        assertEquals(result, PalindromeSolution.isPalindrome2(input));
+    }
 
 }

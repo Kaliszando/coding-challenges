@@ -13,4 +13,16 @@ class PalindromeSolution {
 
         return true;
     }
+
+    public static boolean isPalindrome2(int number) {
+        if (number < 0) return false;
+
+        int halfReversed = 0;
+        while (number > halfReversed) {
+            halfReversed = halfReversed * 10 + number % 10;
+            number /= 10;
+        }
+
+        return number == halfReversed / 10 || number == halfReversed;
+    }
 }
