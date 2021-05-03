@@ -1,4 +1,7 @@
 # Coding Challenges
+[![Build Status](https://travis-ci.com/Kaliszando/coding-challenges.svg?branch=main)](https://travis-ci.com/Kaliszando/coding-challenges)
+
+
 In this repository I collect all the algorithmic tasks I have solved. 
 Each assignment has been solved by me, but not all solutions are mine.
 
