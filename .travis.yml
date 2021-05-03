@@ -1,0 +1,4 @@
+language: java
+install: mvn install -B -V
+jdk:
+  - oraclejdk11
