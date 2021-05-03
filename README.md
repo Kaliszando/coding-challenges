@@ -8,6 +8,7 @@ Each assignment has been solved by me, but not all solutions are mine.
 * [Two sum](https://github.com/Kaliszando/coding-challenges#two-sum)
 * [Reverse integer](https://github.com/Kaliszando/coding-challenges#reverse-integer)
 * [Palindrome](https://github.com/Kaliszando/coding-challenges#palindrome)
+* [Roman to Integer](https://github.com/Kaliszando/coding-challenges#roman-to-integer)
 
 ## Particulars of the challenges
 
@@ -69,3 +70,12 @@ An integer is a palindrome when it reads the same backward as forward. For examp
 [solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/PalindromeSolution.java)
 
 
+
+### Roman to Integer
+***
+_Given a roman numeral, convert it to an integer. Constraints:_
+* _String **roman** contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M')_
+* _It is guaranteed that **roman** is a valid roman numeral in the range [1, 3999]_
+
+[source](https://leetcode.com/problems/roman-to-integer/),
+[solution](https://github.com/Kaliszando/coding-challenges/blob/main/src/main/java/com/challenges/RomanToIntegerSolution.java)
